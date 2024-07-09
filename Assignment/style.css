@@ -10,12 +10,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
   }
   .content {
     max-width: 600px;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    background-color: rgba(255, 255, 255, 0.8); 
     border-radius: 10px;
   }
   h1 {
@@ -29,10 +29,109 @@
   .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #1f201f; /* Green background color */
+    background-color: #1f201f; 
     color: white;
     text-decoration: none;
     font-size: 1.2em;
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
+  .navi{
+    display: flex;
+  }
+  .navi h1{
+    margin-left: 20px;
+  }
+  .navi button{
+    margin-left: 1200px;
+    width: 228px;
+height: 58px;
+margin-top: 20px;
+
+  }
+
+.outer-container {
+  width: 1140px;
+  height: 1390px;
+  margin: 80px auto; /* 80px margin top and bottom, auto left and right for centering */
+  background-color:rgba(13, 19, 33, 0.02); /* Light gray background */
+  padding: 80px 97px; /* Padding inside the outer container */
+  box-sizing: border-box; /* Include padding in width/height calculations */
+  border: 2px red;
+}
+.inner-container {
+  width: 946px;
+  height: 1235px;
+ /* Margin around the inner container */
+  background-color: rgba(13, 19, 33, 0.02); /* Lighter gray background */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  box-sizing: border-box; /* Include padding in width/height calculations */
+  margin:80px , 97px;
+}
+.inner-box{
+  width: 946px;
+  height: 336px;
+  margin-bottom: 20px; /* Margin between inner boxes */
+  /* Gray background for inner boxes */
+   /* Include padding in width/height calculations */
+  margin-top: 10px;
+  display: flex;
+  
+}
+#one{
+  margin-top: 200px;
+}
+.upper .mid .last{
+  width: 50%;
+  height: 336px;
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+align-items: center;
+justify-content: center;
+margin-left: 30px;
+}
+.right .r1 .r2{
+  width: 50%;
+  height: 336px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.r1{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.upper{
+  margin-top: 50px;
+}
+.right{
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.inspire{
+  width: 1140px;
+height: 775px;
+
+
+margin: 0 auto;
+}
+.uc{
+  width: 852px;
+height: 113px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-left: 200px;
+}
+.yt{
+  margin-top: 100px;
+  margin-left: 40px;
+}
