@@ -1,0 +1,38 @@
+.first {
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/Hero-bg.png); /* Replace 'background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    /* Ensures the background covers the whole viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .content {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for readability */
+    border-radius: 10px;
+  }
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1f201f; /* Green background color */
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
