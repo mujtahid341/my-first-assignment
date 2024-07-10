@@ -95,6 +95,9 @@ align-items: center;
 justify-content: center;
 margin-left: 30px;
 }
+.last{
+  padding: 1px;
+}
 .right .r1 .r2{
   width: 50%;
   height: 336px;
@@ -186,4 +189,79 @@ align-items: center;
   margin-left: 40px;
   margin-top: 40px;
   background-color: rgba(255, 223, 0, 0.05);
+}
+.container1 {
+  width: 1140px;
+  height: 866px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  position: relative;
+  margin-top: 50px;
+}
+
+.main-cont{
+
+width: 1140px;
+height: 866px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aliceblue;
+margin: 0 auto;
+margin-top: 50px;
+}
+
+.react{
+  position: static;
+  width: 1140px;
+  height: 219px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  border: 2px solid red;   
+  
+}
+.rephoto{
+  width: 94.78px;
+height: 84.41px;
+margin:40px 0 40px 40px;
+}
+.re-source{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.last{
+  /* Frame 8 */
+position: absolute;
+width: 1140px;
+height: 313px;
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 180px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+background-color: aquamarine;
+background-position: center;
+align-items: center;
+
+}
+.text{
+  
+width: 730px;
+height: 104px;
+position: static;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
