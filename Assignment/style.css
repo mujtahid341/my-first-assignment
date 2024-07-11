@@ -1,10 +1,9 @@
 .first {
     margin: 0;
     padding: 0;
-    background-image: url(assets/Hero-bg.png); /* Replace 'background.jpg' with your image path */
+    background-image: url(./assets/Hero-bg.png); 
     background-size: cover;
     background-position: center;
-    /* Ensures the background covers the whole viewport height */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -53,21 +52,21 @@ margin-top: 20px;
 .outer-container {
   width: 1140px;
   height: 1390px;
-  margin: 80px auto; /* 80px margin top and bottom, auto left and right for centering */
-  background-color:rgba(13, 19, 33, 0.02); /* Light gray background */
-  padding: 80px 97px; /* Padding inside the outer container */
-  box-sizing: border-box; /* Include padding in width/height calculations */
+  margin: 80px auto;
+  background-color:rgba(13, 19, 33, 0.02); 
+  padding: 80px 97px; 
+  box-sizing: border-box; 
   border: 2px red;
 }
 .inner-container {
   width: 946px;
   height: 1235px;
- /* Margin around the inner container */
-  background-color: rgba(13, 19, 33, 0.02); /* Lighter gray background */
+ 
+  background-color: rgba(13, 19, 33, 0.02); 
   display: flex;
   flex-wrap: wrap;
   justify-content:space-between;
-  box-sizing: border-box; /* Include padding in width/height calculations */
+  box-sizing: border-box; 
   flex-direction: column;
 justify-content: center;
 align-items: center;
@@ -87,9 +86,7 @@ position: static;
 .inner-box{
   width: 946px;
   height: 336px;
-  margin-bottom: 20px; /* Margin between inner boxes */
-  /* Gray background for inner boxes */
-   /* Include padding in width/height calculations */
+  margin-bottom: 20px; 
   margin-top: 10px;
   display: flex;
   
@@ -141,7 +138,6 @@ margin: 0 auto;
 .uc{
   width: 852px;
 height: 113px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
@@ -208,7 +204,6 @@ align-items: center;
 
 width: 946px;
 height: 113px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: center;
