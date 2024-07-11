@@ -294,6 +294,10 @@ padding: 64px 48px 64px 48px;
 background-image: url(./assets/handshake.jpg);
 margin: 0 auto;
 margin-top: 50px;
+background-color: rgba(0, 0, 0, 0.2)
+  rgba(0, 0, 0, 0.2)
+  rgba(0, 0, 0, 0.2);
+  
 }
 .foot-text{
   position: static;
@@ -306,11 +310,65 @@ margin-top: 50px;
   align-items: center;
   padding: 0px;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.2)
-  rgba(0, 0, 0, 0.2)
-  rgba(0, 0, 0, 0.2);
-
+  
+  
+ 
 }
 .fnt{
   color: #f0f0f0;
+  margin-bottom: 100px;
+}
+.feed{
+  position: static;
+width: 548px;
+height: 57px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 19px 20px 19px 20px;
+
+}
+.last-sub{
+  position: static;
+  width: 120px;
+  height: 57px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 20px 17px 20px;
+  margin-left: 20px;
+}
+.foot-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.fnts{
+  margin-top: 200px;
+  color: #f0f0f0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer{
+  width: 1440px;
+height: 100px;
+
+margin: 0 auto;
+margin-top: 50px;
+display: flex;
+
+}
+.inner-footer{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
