@@ -68,7 +68,21 @@ margin-top: 20px;
   flex-wrap: wrap;
   justify-content:space-between;
   box-sizing: border-box; /* Include padding in width/height calculations */
-  margin:80px , 97px;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+  
+}
+.txt{
+  width: 852px;
+height: 115px;
+
+flex-direction: row;
+justify-content: center;
+align-items: flex-start;
+margin: 0 auto;
+position: static;
+
 }
 .inner-box{
   width: 946px;
@@ -81,7 +95,7 @@ margin-top: 20px;
   
 }
 #one{
-  margin-top: 200px;
+  margin-top: 20px;
 }
 .upper .mid .last{
   width: 50%;
@@ -109,7 +123,7 @@ margin-left: 30px;
 .r1{
   margin-left: 100px;
   margin-top: 50px;
-}
+} 
 .upper{
   margin-top: 50px;
 }
@@ -190,78 +204,113 @@ align-items: center;
   margin-top: 40px;
   background-color: rgba(255, 223, 0, 0.05);
 }
-.container1 {
-  width: 1140px;
-  height: 866px;
-  margin: 0 auto;
-  background-color: #f0f0f0;
-  position: relative;
-  margin-top: 50px;
-}
+.others-heading{
 
-.main-cont{
-
-width: 1140px;
-height: 866px;
+width: 946px;
+height: 113px;
+/* Auto layout */
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
-background-color: aliceblue;
 margin: 0 auto;
-margin-top: 50px;
 }
-
-.react{
+.react {
+  position: static;
+width: 1140px;
+height: 170px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+border: 2px solid black;
+margin: 0 auto;
+border-radius: 10px;
+}
+.inner-react {
+  margin-left: 200px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+.re-img {
+  margin-top: 70px;
+}
+.node{
   position: static;
   width: 1140px;
-  height: 219px;
+  height: 170px;
   /* Auto layout */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
   align-items: flex-start;
   padding: 40px;
-  border: 2px solid red;   
-  
+  border: 2px solid black;
+ margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
 }
-.rephoto{
-  width: 94.78px;
-height: 84.41px;
-margin:40px 0 40px 40px;
-}
-.re-source{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.inner-node{
+  margin-left: 200px;
+  margin-bottom: 100px;
   align-items: center;
 }
-.last{
-  /* Frame 8 */
-position: absolute;
-width: 1140px;
+.no-img{
+  margin-top: 70px;
+}
+.mongo{
+  position: static;
+  width: 1140px;
+  height: 170px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  border: 2px solid black;
+ margin: 0 auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.mong-img{
+  margin-top: 70px;
+}
+.inner-mong{
+  margin-left: 200px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+.foot-up{
+  width: 1140px;
 height: 313px;
-left: 150px;
-right: 150px;
-top: 4752px;
-bottom: 180px;
-/* Auto layout */
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
 align-items: flex-start;
 padding: 64px 48px 64px 48px;
-background-color: aquamarine;
-background-position: center;
-align-items: center;
+background-image: url(./assets/handshake.jpg);
+margin: 0 auto;
+margin-top: 50px;
+}
+.foot-text{
+  position: static;
+  width: 730px;
+  height: 104px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.2)
+  rgba(0, 0, 0, 0.2)
+  rgba(0, 0, 0, 0.2);
 
 }
-.text{
-  
-width: 730px;
-height: 104px;
-position: static;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.fnt{
+  color: #f0f0f0;
 }
